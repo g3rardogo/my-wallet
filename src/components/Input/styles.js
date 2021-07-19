@@ -31,7 +31,9 @@ export const Input = styled.input`
 
 export const Icon = styled.i`
   height: fit-content;
-  padding: 1.2rem;
+  padding: 1.3rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
   font-size: 2rem;
   color: #6668cc;
   background-color: #f3f4fb;

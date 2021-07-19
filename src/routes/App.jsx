@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "../styles/bootstrap_reboot.scss";
 import { GlobalStyle } from "../styles/GlobalStyles";
 import Login from "../pages/Login";
+import SignUp from "../pages/Signup";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Login} />
+          <Route exact path="/register" component={SignUp} />
         </Switch>
       </BrowserRouter>
     </>
