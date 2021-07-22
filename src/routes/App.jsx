@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "../styles/bootstrap_reboot.scss";
 import { GlobalStyle } from "../styles/GlobalStyles";
 import Login from "../pages/Login";
-import SignUp from "../pages/Signup";
+import SignUp from "../pages/SignUp";
 
 const App = () => {
   return (

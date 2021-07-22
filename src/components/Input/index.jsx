@@ -6,13 +6,13 @@ import {
   Icon,
 } from "./styles";
 
-export const Input = ({ name, placeholder, icon }) => {
+export const Input = ({ name,type, nameAttr, placeholder, icon }) => {
   return (
     <>
       <InputName>{name}</InputName>
-      <InputContainer>
+      <InputContainer >
         <Icon className={icon} />
-        <InputComponent placeholder={placeholder} />
+        <InputComponent type={type} name={nameAttr} placeholder={placeholder} />
       </InputContainer>
     </>
   );
