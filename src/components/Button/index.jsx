@@ -2,5 +2,5 @@ import React from "react";
 import { Button as ButtonComponent } from "./styles";
 
 export const Button = ({ text }) => {
-  return <ButtonComponent>{text}</ButtonComponent>;
+  return <ButtonComponent type="submit">{text}</ButtonComponent>;
 };
